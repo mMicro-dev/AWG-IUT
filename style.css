@@ -1,0 +1,16 @@
+* {
+    font-family: vazir;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+body {
+    background-color: #616161;
+    margin: 0;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.ttf);
+}
