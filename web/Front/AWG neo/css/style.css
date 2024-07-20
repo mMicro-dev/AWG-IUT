@@ -123,8 +123,12 @@ body {
 
 .why{
     background-color: #20bf6b;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 
-
+}
+.question{
+    grid-column: 2;
 }
 
 .more-question-box{
