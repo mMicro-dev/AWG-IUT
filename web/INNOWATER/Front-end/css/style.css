@@ -91,17 +91,27 @@ body {
 
 .shop-button {
     background-color: #fff;
-    color: #9e1010;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 10px 20px;
+    color: #e04444;
+    border: 1px solid #45aaf2;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding: 30px 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .call-button {
     background-color: #45aaf2;
     border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: 50px;
+    padding: 30px 50px;
+    font-size: 1.5rem;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px
 }
 
 .under-banner {
@@ -160,10 +170,12 @@ body {
     background-color: var(--color-bluegreen);
     display: grid;
     grid-template-areas:
-    "a b b"
-    "c c c";
+    "a b"
+    "c c";
     padding: 2rem 4rem;
     height: 30em;
+    justify-content: center;
+    align-items: center;
 }
 
 .mqb-form{
@@ -176,6 +188,7 @@ body {
 
 .mqb-text{
     grid-area: a;
+    max-width: 400px;
 }
 
 .input-container {
@@ -200,6 +213,28 @@ body {
     color: var(--color-black); padding: 3px;
     background-color: #eafcff;
     border-radius: 3px; font-weight: 700;
+}
+
+.mqb-submit{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+.mqb-submit:hover{
+    background-color: var(--primery);
+    color: var(--color-white);
+}
+
+.mqb-submit:active{
+    background-color: #1b3166;
+}
+
+.mqb-undertext{
+    grid-area: c;
 }
 
 .legal-rights {
@@ -230,6 +265,10 @@ footer {
     .navbar .navbar-item {
         display: none;
     }
+    .navbar {
+        grid-template-columns: 1fr 1.25fr;
+    }
+    
 }
 
 @font-face {
