@@ -271,13 +271,14 @@ body {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .footer-02 {
@@ -403,6 +404,12 @@ input[type=number] {
     }
 }
 
+@media (max-width:1250px) {
+    .why-img{
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
     .navbar .navbar-item {
         display: none;
@@ -426,9 +433,3 @@ input[type=number] {
     src: url(../fonts/BaskervvilleSC-Regular.ttf);
 }
 
-
-@media (max-width:1250px) {
-    .why-img{
-        display: none;
-    }
-}
