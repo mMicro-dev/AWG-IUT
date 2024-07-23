@@ -1,5 +1,5 @@
-# AWG-IUT
-Front-end section of AWG website project
+# InnoWater-IUT
+Front-end section of InnoWater website project
 # updates :
 هنوز فایل کامل نیست.
 اسکلت صفحه home ساخته شده ولی بازم هنوز کامل نیست.
